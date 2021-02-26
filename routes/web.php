@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ArticleController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-//Practicum 1
+//Practicum 1 :
 //number 1.
 Route::get('/contact', function () {return view('contact'); })->name('contact');
 Route::get('/gallery', function () {return view('gallery'); })->name('gallery');
@@ -25,19 +27,28 @@ Route::get('/', function () {
     echo "Welcome";
 });
 //number 3.
-Route::get('/about', function () {
-    echo "Name: Della Arselatuiqrom NIM: 1941720027 Class: TI-2H";
-});
+//Route::get('/about', function () {
+    //echo "Name: Della Arselatuiqrom NIM: 1941720027 Class: TI-2H";
+//});
 
-Route::get('/article/{id}', function ($id) {
-    echo ("This is article with id ".$id);
-});
+//Route::get('/article/{id}', function ($id) {
+   // echo ("This is article with id ".$id);
+//});
 
-//Practicum 2
-//number 1.
+//Practicum 2 :
 //number 2.
+//Route::get('/', [PageController::class, 'index']);
+
+//Route::get('/about', [PageController::class, 'about']);
+
+//Route::get('articles/{id}', [PageController::class, 'articles']);
+
 //number 3.
+
+Route::get('/', [HomeController::class, 'index']);
+
+Route::get('/about', [AboutController::class, 'about']);
+
+Route::get('articles/{id}', [ArticleController::class, 'articles']);
+
 //Practicum 3
-//number 1.
-//number 2.
-//number 3.
