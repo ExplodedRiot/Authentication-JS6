@@ -3,10 +3,10 @@
 <title>Bigshot</title>
 <meta charset="utf-8">
 <!-- CSS Files -->
-<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/menu/css/simple_menu.css">
 <!--JS FILES -->
-<script src="js/jquery.tools.min.js"></script>
+<script src="assets/js/jquery.tools.min.js"></script>
 <script>
 $(function () {
     $("#prod_nav ul").tabs("#panes > div", {
