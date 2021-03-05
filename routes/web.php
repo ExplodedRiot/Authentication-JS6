@@ -57,6 +57,20 @@ Route::get('/blog', function () {return view('blog'); })->name('blog');
 Route::get('/columns', function () {return view('columns'); })->name('columns');
 Route::get('/contact', function () {return view('contact'); })->name('contact');
 Route::get('/ei-slider', function () {return view('ei-slider'); })->name('ei-slider');
+Route::get('/elements', function () {return view('elements'); })->name('elements');
+Route::get('/full-width', function () {return view('full-width'); })->name('full-width');
+Route::get('/full-gallery', function () {return view('full-gallery'); })->name('full-gallery');
+Route::get('/gallery-fader', function () {return view('gallery-fader'); })->name('gallery-fader');
+Route::get('/gallery-simple', function () {return view('gallery-simple'); })->name('gallery-simple');
+Route::get('/home', function () {return view('home'); })->name('home');
+Route::get('/image-frontpage', function () {return view('image-frontpage'); })->name('image-frontpage');
+Route::get('/index', function () {return view('index'); })->name('index');
+Route::get('/magazine', function () {return view('magazine'); })->name('magazine');
+Route::get('/nivo', function () {return view('nivo'); })->name('nivo');
+Route::get('/photogrid', function () {return view('photogrid'); })->name('photogrid');
+Route::get('/portofolio', function () {return view('portofolio'); })->name('portofolio');
+Route::get('/video', function () {return view('video'); })->name('video');
+Route::get('/welcome', function () {return view('welcome'); })->name('welcome');
 
 Auth::routes();
 
