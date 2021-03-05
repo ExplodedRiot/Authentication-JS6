@@ -28,15 +28,15 @@
 <body>
 <div class="header">
   <!-- Logo/Title -->
-  <div id="site_title"><a href="index.html"> <img src="img/logo.png" alt=""></a> </div>
+  <div id="site_title"><a href="index.html"> <img src="assets/img/logo.png" alt=""></a> </div>
   <!-- Main Menu -->
   <ol id="menu">
     <li><a href="index.html">Home</a>
       <!-- sub menu -->
       <ol>
-        <li><a href="nivo.html">Nivo Slider</a></li>
-        <li><a href="ei-slider.html">EI Slider</a></li>
-        <li><a href="image-frontpage.html">Static Image</a></li>
+        <li><a href={{route('nivo')}}>Nivo Slider</a></li>
+        <li><a href={{route('ei-slider')}}>EI Slider</a></li>
+        <li><a href={{route('image-frontpage')}}>Static Image</a></li>
       </ol>
     </li>
     <!-- end sub menu -->
