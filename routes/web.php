@@ -16,7 +16,7 @@ use App\Http\Controllers\ArticleController;
 */
 
 Route::get('/', function () {
-    return view('index.blade.php');
+    return view('index');
 });
 //Practicum 1 :
 //number 1.
