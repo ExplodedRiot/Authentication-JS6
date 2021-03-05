@@ -66,7 +66,7 @@ Route::get('/image-frontpage', function () {return view('image-frontpage'); })->
 Route::get('/magazine', function () {return view('magazine'); })->name('magazine');
 Route::get('/nivo', function () {return view('nivo'); })->name('nivo');
 Route::get('/photogrid', function () {return view('photogrid'); })->name('photogrid');
-Route::get('/portofolio', function () {return view('portofolio'); })->name('portofolio');
+Route::get('/portfolio', function () {return view('portfolio'); })->name('portfolio');
 Route::get('/video', function () {return view('video'); })->name('video');
 //Route::get('/welcome', function () {return view('welcome'); })->name('welcome');
 
