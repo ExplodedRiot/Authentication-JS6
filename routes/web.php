@@ -64,7 +64,7 @@ Route::get('/gallery-fader', function () {return view('gallery-fader'); })->name
 Route::get('/gallery-simple', function () {return view('gallery-simple'); })->name('gallery-simple');
 Route::get('/home', function () {return view('home'); })->name('home');
 Route::get('/image-frontpage', function () {return view('image-frontpage'); })->name('image-frontpage');
-Route::get('/index', function () {return view('index'); })->name('index');
+//Route::get('/index', function () {return view('index'); })->name('index');
 Route::get('/magazine', function () {return view('magazine'); })->name('magazine');
 Route::get('/nivo', function () {return view('nivo'); })->name('nivo');
 Route::get('/photogrid', function () {return view('photogrid'); })->name('photogrid');
