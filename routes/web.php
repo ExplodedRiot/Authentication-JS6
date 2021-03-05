@@ -52,3 +52,7 @@ Route::get('/about', [AboutController::class, 'about']);
 Route::get('articles/{id}', [ArticleController::class, 'articles']);
 
 //Practicum 3
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
