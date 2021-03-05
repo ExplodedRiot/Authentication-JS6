@@ -33,7 +33,7 @@ $(document).ready(function () {
     <li class="active_menu_item"><a href="index.html" style="color:#FFF">Home</a>
       <!-- sub menu -->
       <ol>
-        <li><a href="views/nivo.blade.php">Nivo Slider</a></li>
+        <li><a href={{route('nivo')}}>Nivo Slider</a></li>
         <li><a href="resources/views/ei-slider.blade.php">EI Slider</a></li>
         <li><a href="fullscreen-gallery.blade.php">Fullscreen Slider</a></li>
         <li><a href="image-frontpage.blade.php">Static Image</a></li>
