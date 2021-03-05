@@ -3,10 +3,10 @@
 <title>Bigshot | Blog</title>
 <meta charset="utf-8">
 <!-- CSS Files -->
-<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
-<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen">
-<link rel="stylesheet" type="text/css" href="boxes/css/style6.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/menu/css/simple_menu.css">
+<link rel="stylesheet" href="assets/css/nivo-slider.css" type="text/css" media="screen">
+<link rel="stylesheet" type="text/css" href="assets/boxes/css/style6.css">
 <!-- JS Files -->
 <script src="js/jquery.min.js"></script>
 <script src="js/custom.js"></script>
