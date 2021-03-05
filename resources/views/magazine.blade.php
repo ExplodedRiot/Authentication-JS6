@@ -3,12 +3,12 @@
 <title>Bigshot | Magazine</title>
 <meta charset="utf-8">
 <!-- CSS Files -->
-<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
-<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/menu/css/simple_menu.css">
+<link rel="stylesheet" href="assets/css/nivo-slider.css" type="text/css" media="screen">
 <!-- JS Files -->
-<script src="js/jquery.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/custom.js"></script>
 <script src="js/slides/slides.min.jquery.js"></script>
 <script src="js/cycle-slider/cycle.js"></script>
 <script src="js/nivo-slider/jquery.nivo.slider.js"></script>

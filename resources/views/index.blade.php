@@ -56,7 +56,7 @@ $(document).ready(function () {
       <ol>
         <li><a href={{route('gallery-simple')}}>Simple</a></li>
         <li><a href={{route('portfolio')}}>Filterable</a></li>
-        <li><a href={{route('gallery-fade')}}>Fade Scroll</a></li>
+        <li><a href={{route('gallery-fader')}}>Fade Scroll</a></li>
         <li><a href={{route('video')}}>Video</a></li>
         <li class="last"><a href="photogrid.blade.php">PhotoGrid</a></li>
       </ol>

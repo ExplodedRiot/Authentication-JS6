@@ -34,7 +34,7 @@
     <li><a href="index.html">Home</a>
       <!-- sub menu -->
       <ol>
-        <li><a href="nivo.html">Nivo Slider</a></li>
+        <li><a href={{route('nivo')}}>Nivo Slider</a></li>
         <li><a href="ei-slider.html">EI Slider</a></li>
         <li><a href="fullscreen-gallery.html">Fullscreen Slider</a></li>
         <li><a href="image-frontpage.html">Static Image</a></li>
