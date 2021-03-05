@@ -59,7 +59,7 @@ Route::get('/contact', function () {return view('contact'); })->name('contact');
 Route::get('/ei-slider', function () {return view('ei-slider'); })->name('ei-slider');
 Route::get('/elements', function () {return view('elements'); })->name('elements');
 Route::get('/full-width', function () {return view('full-width'); })->name('full-width');
-Route::get('/full-gallery', function () {return view('full-gallery'); })->name('full-gallery');
+Route::get('/fullscreen-gallery', function () {return view('fullscreen-gallery'); })->name('fullscreen-gallery');
 Route::get('/gallery-fader', function () {return view('gallery-fader'); })->name('gallery-fader');
 Route::get('/gallery-simple', function () {return view('gallery-simple'); })->name('gallery-simple');
 Route::get('/home', function () {return view('home'); })->name('home');
