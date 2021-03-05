@@ -45,7 +45,7 @@ $(document).ready(function () {
       <ol>
         <li><a href={{route('magazine')}}>Magazine</a></li>
         <li><a href={{route('blog')}}>Blog</a></li>
-        <li><a href={{route('full-server')}}>Full Width Page</a></li>
+        <li><a href={{route('full-width')}}>Full Width Page</a></li>
         <li><a href={{route('columns')}}>Columns</a></li>
       </ol>
     </li>
