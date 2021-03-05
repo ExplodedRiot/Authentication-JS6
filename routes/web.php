@@ -53,6 +53,10 @@ use App\Http\Controllers\ArticleController;
 Route::get('/', function () {
   return view('index');
 });
+Route::get('/blog', function () {return view('blog'); })->name('blog');
+Route::get('/columns', function () {return view('columns'); })->name('columns');
+Route::get('/contact', function () {return view('contact'); })->name('contact');
+Route::get('/ei-slider', function () {return view('ei-slider'); })->name('ei-slider');
 
 Auth::routes();
 

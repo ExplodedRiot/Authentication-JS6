@@ -27,14 +27,14 @@ $(document).ready(function () {
 <body>
 <div class="header">
   <!-- Logo/Title -->
-  <div id="site_title"><a href="resources/views/index.blade.php"> <img src="public/assets/img/logo.png" alt=""></a> </div>
+  <div id="site_title"><a href="index.html"> <img src="public/assets/img/logo.png" alt=""></a> </div>
   <!-- Main Menu -->
   <ol id="menu">
-    <li class="active_menu_item"><a href="index.blade.php" style="color:#FFF">Home</a>
+    <li class="active_menu_item"><a href="index.html" style="color:#FFF">Home</a>
       <!-- sub menu -->
       <ol>
-        <li><a href="nivo.blade.php">Nivo Slider</a></li>
-        <li><a href="ei-slider.blade.php">EI Slider</a></li>
+        <li><a href="views/nivo.blade.php">Nivo Slider</a></li>
+        <li><a href="resources/views/ei-slider.blade.php">EI Slider</a></li>
         <li><a href="fullscreen-gallery.blade.php">Fullscreen Slider</a></li>
         <li><a href="image-frontpage.blade.php">Static Image</a></li>
       </ol>
