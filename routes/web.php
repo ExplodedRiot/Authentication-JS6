@@ -51,7 +51,7 @@ use App\Http\Controllers\ArticleController;
 //Practicum 3
 
 Route::get('/', function () {
-  return view('index.blade.php');
+  return view('index');
 });
 
 Auth::routes();
