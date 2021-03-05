@@ -27,7 +27,7 @@ $(document).ready(function () {
 <body>
 <div class="header">
   <!-- Logo/Title -->
-  <div id="site_title"><a href="index.blade.php"> <img src="assets/img/logo.png" alt=""></a> </div>
+  <div id="site_title"><a href="resources/views/index.blade.php"> <img src="public/assets/img/logo.png" alt=""></a> </div>
   <!-- Main Menu -->
   <ol id="menu">
     <li class="active_menu_item"><a href="index.blade.php" style="color:#FFF">Home</a>
