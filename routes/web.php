@@ -15,9 +15,6 @@ use App\Http\Controllers\ArticleController;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
 //Practicum 1 :
 //number 1.
 //Route::get('/contact', function () {return view('contact'); })->name('contact');
@@ -45,13 +42,17 @@ Route::get('/', function () {
 
 //number 3.
 
-Route::get('/', [HomeController::class, 'index']);
+//Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/about', [AboutController::class, 'about']);
+//Route::get('/about', [AboutController::class, 'about']);
 
-Route::get('articles/{id}', [ArticleController::class, 'articles']);
+//Route::get('articles/{id}', [ArticleController::class, 'articles']);
 
 //Practicum 3
+
+Route::get('/', function () {
+  return view('index.blade.php');
+});
 
 Auth::routes();
 
