@@ -34,35 +34,35 @@ $(document).ready(function () {
       <!-- sub menu -->
       <ol>
         <li><a href={{route('nivo')}}>Nivo Slider</a></li>
-        <li><a href="resources/views/ei-slider.blade.php">EI Slider</a></li>
-        <li><a href="fullscreen-gallery.blade.php">Fullscreen Slider</a></li>
-        <li><a href="image-frontpage.blade.php">Static Image</a></li>
+        <li><a href={{route('ei-slider')}}>EI Slider</a></li>
+        <li><a href={{route('fullscreen-gallery')}}>Fullscreen Slider</a></li>
+        <li><a href={{route('image-frontpage')}}>Static Image</a></li>
       </ol>
     </li>
     <!-- end sub menu -->
     <li><a href="#">Pages</a>
       <!-- sub menu -->
       <ol>
-        <li><a href="magazine.blade.php">Magazine</a></li>
-        <li><a href="blog.blade.php">Blog</a></li>
-        <li><a href="full-width.blade.php">Full Width Page</a></li>
-        <li><a href="columns.blade.php">Columns</a></li>
+        <li><a href={{route('magazine')}}>Magazine</a></li>
+        <li><a href={{route('blog')}}>Blog</a></li>
+        <li><a href={{route('full-server')}}>Full Width Page</a></li>
+        <li><a href={{route('columns')}}>Columns</a></li>
       </ol>
     </li>
     <!-- end sub menu -->
-    <li><a href="elements.blade.php">Elements</a></li>
+    <li><a href={{route('elements')}}>Elements</a></li>
     <li><a href="#">Galleries</a>
       <!-- sub menu -->
       <ol>
-        <li><a href="gallery-simple.blade.php">Simple</a></li>
-        <li><a href="portfolio.blade.php">Filterable</a></li>
-        <li><a href="gallery-fader.blade.php">Fade Scroll</a></li>
-        <li><a href="video.blade.php">Video</a></li>
+        <li><a href={{route('gallery-simple')}}>Simple</a></li>
+        <li><a href={{route('portfolio')}}>Filterable</a></li>
+        <li><a href={{route('gallery-fade')}}>Fade Scroll</a></li>
+        <li><a href={{route('video')}}>Video</a></li>
         <li class="last"><a href="photogrid.blade.php">PhotoGrid</a></li>
       </ol>
     </li>
     <!-- end sub menu -->
-    <li><a href="contact.blade.php">Contact</a></li>
+    <li><a href={{route('contact')}}>Contact</a></li>
   </ol>
 </div>
 <!-- END header -->
