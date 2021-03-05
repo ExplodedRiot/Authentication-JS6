@@ -29,10 +29,10 @@
 <body>
 <div class="header">
   <!-- Logo/Title -->
-  <div id="site_title"><a href="index.html"> <img src="img/logo.png" alt=""></a> </div>
+  <div id="site_title"><a href="index.blade.php"> <img src="assets/img/logo.png" alt=""></a> </div>
   <!-- Main Menu -->
   <ol id="menu">
-    <li><a href="index.html">Home</a>
+    <li><a href="index.blade.php">Home</a>
       <!-- sub menu -->
       <ol>
         <li><a href="nivo.html">Nivo Slider</a></li>

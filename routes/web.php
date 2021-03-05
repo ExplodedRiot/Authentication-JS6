@@ -20,12 +20,12 @@ Route::get('/', function () {
 });
 //Practicum 1 :
 //number 1.
-Route::get('/contact', function () {return view('contact'); })->name('contact');
-Route::get('/gallery', function () {return view('gallery'); })->name('gallery');
+//Route::get('/contact', function () {return view('contact'); })->name('contact');
+//Route::get('/gallery', function () {return view('gallery'); })->name('gallery');
 //number 2.
-Route::get('/', function () {
-    echo "Welcome";
-});
+//Route::get('/', function () {
+  ////  echo "Welcome";
+//});
 //number 3.
 //Route::get('/about', function () {
     //echo "Name: Della Arselatuiqrom NIM: 1941720027 Class: TI-2H";
