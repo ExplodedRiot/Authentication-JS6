@@ -60,7 +60,7 @@
         <li><a href={{route('portfolio')}}>Filterable</a></li>
         <li><a href={{route('gallery-fade')}}>Fade Scroll</a></li>
         <li><a href={{route('video')}}>Video</a></li>
-        <li class="last"><a href="photogrid.html">PhotoGrid</a></li>
+        <li class="last"><a href={{route('photogrid')}}>PhotoGrid</a></li>
       </ol>
     </li>
     <!-- end sub menu -->
