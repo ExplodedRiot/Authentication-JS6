@@ -3,14 +3,14 @@
 <title>Bigshot | EI Slider</title>
 <meta charset="utf-8">
 <!-- CSS Files -->
-<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
-<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen">
-<link rel="stylesheet" type="text/css" href="boxes/css/style5.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/menu/css/simple_menu.css">
+<link rel="stylesheet" href="assets/css/nivo-slider.css" type="text/css" media="screen">
+<link rel="stylesheet" type="text/css" href="assets/boxes/css/style5.css">
 <!-- JS Files -->
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.eislideshow.js"></script>
-<script src="js/custom.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.eislideshow.js"></script>
+<script src="assets/js/custom.js"></script>
 <script>
 jQuery.noConflict()(function ($) {
     $('#ei-slider').eislideshow({
@@ -21,27 +21,27 @@ jQuery.noConflict()(function ($) {
     });
 });
 </script>
-<script src="js/slides/slides.min.jquery.js"></script>
-<script src="js/cycle-slider/cycle.js"></script>
-<script src="js/nivo-slider/jquery.nivo.slider.js"></script>
-<script src="js/tabify/jquery.tabify.js"></script>
-<script src="js/prettyPhoto/jquery.prettyPhoto.js"></script>
-<script src="js/twitter/jquery.tweet.js"></script>
-<script src="js/scrolltop/scrolltopcontrol.js"></script>
-<script src="js/portfolio/filterable.js"></script>
-<script src="js/modernizr/modernizr-2.0.3.js"></script>
-<script src="js/easing/jquery.easing.1.3.js"></script>
-<script src="js/kwicks/jquery.kwicks-1.5.1.pack.js"></script>
-<script src="js/swfobject/swfobject.js"></script>
+<script src="assets/js/slides/slides.min.jquery.js"></script>
+<script src="assets/js/cycle-slider/cycle.js"></script>
+<script src="assets/js/nivo-slider/jquery.nivo.slider.js"></script>
+<script src="assets/js/tabify/jquery.tabify.js"></script>
+<script src="assets/js/prettyPhoto/jquery.prettyPhoto.js"></script>
+<script src="assets/js/twitter/jquery.tweet.js"></script>
+<script src="assets/js/scrolltop/scrolltopcontrol.js"></script>
+<script src="assets/js/portfolio/filterable.js"></script>
+<script src="assets/js/modernizr/modernizr-2.0.3.js"></script>
+<script src="assets/js/easing/jquery.easing.1.3.js"></script>
+<script src="assets/js/kwicks/jquery.kwicks-1.5.1.pack.js"></script>
+<script src="assets/js/swfobject/swfobject.js"></script>
 <!-- FancyBox -->
-<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" media="all">
-<script src="js/fancybox/jquery.fancybox-1.2.1.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/js/fancybox/jquery.fancybox.css" media="all">
+<script src="assets/js/fancybox/jquery.fancybox-1.2.1.js"></script>
 </head>
 <body style="background: #FFF">
 <div style="width:100%; background: #FFF">
   <div class="header">
     <!-- Logo/Title -->
-    <div id="site_title"><a href="index.html"> <img src="img/logo.png" alt=""></a> </div>
+    <div id="site_title"><a href="index.html"> <img src="assets/img/logo.png" alt=""></a> </div>
     <!-- Main Menu -->
     <ol id="menu">
       <li><a href="index.html">Home</a>
@@ -84,43 +84,43 @@ jQuery.noConflict()(function ($) {
 <div class="wrapper">
   <div id="ei-slider" class="ei-slider">
     <ul class="ei-slider-large">
-      <li> <img src="img/large/1.jpg" alt="">
+      <li> <img src="assets/img/large/1.jpg" alt="">
         <div class="ei-title">
           <h2>Professional</h2>
           <h3>Lightning Equipment</h3>
         </div>
       </li>
-      <li> <img src="img/large/2.jpg" alt="">
+      <li> <img src="assets/img/large/2.jpg" alt="">
         <div class="ei-title">
           <h2>Passionate</h2>
           <h3>Ballerina</h3>
         </div>
       </li>
-      <li> <img src="img/large/3.jpg" alt="">
+      <li> <img src="assets/img/large/3.jpg" alt="">
         <div class="ei-title">
           <h2>Tranquility</h2>
           <h3>in red</h3>
         </div>
       </li>
-      <li> <img src="img/large/4.jpg" alt="">
+      <li> <img src="assets/img/large/4.jpg" alt="">
         <div class="ei-title">
           <h2>Vintage</h2>
           <h3>Beauty</h3>
         </div>
       </li>
-      <li> <img src="img/large/5.jpg" alt="">
+      <li> <img src="assets/img/large/5.jpg" alt="">
         <div class="ei-title">
           <h2>Mystery</h2>
           <h3>Woman</h3>
         </div>
       </li>
-      <li> <img src="img/large/6.jpg" alt="">
+      <li> <img src="assets/img/large/6.jpg" alt="">
         <div class="ei-title">
           <h2>In the</h2>
           <h3>Spotlight</h3>
         </div>
       </li>
-      <li> <img src="img/large/7.jpg" alt="">
+      <li> <img src="assets/img/large/7.jpg" alt="">
         <div class="ei-title">
           <h2>A touch of</h2>
           <h3>Fashion</h3>
@@ -130,13 +130,13 @@ jQuery.noConflict()(function ($) {
     <!-- ei-slider-large -->
     <ul class="ei-slider-thumbs">
       <li class="ei-slider-element">Current</li>
-      <li><a href="#">Slide 1</a><img src="img/thumbs/1.jpg" alt=""></li>
-      <li><a href="#">Slide 2</a><img src="img/thumbs/2.jpg" alt=""></li>
-      <li><a href="#">Slide 3</a><img src="img/thumbs/3.jpg" alt=""></li>
-      <li><a href="#">Slide 4</a><img src="img/thumbs/4.jpg" alt=""></li>
-      <li><a href="#">Slide 5</a><img src="img/thumbs/5.jpg" alt=""></li>
-      <li><a href="#">Slide 6</a><img src="img/thumbs/6.jpg" alt=""></li>
-      <li><a href="#">Slide 7</a><img src="img/thumbs/7.jpg" alt=""></li>
+      <li><a href="#">Slide 1</a><img src="assets/img/thumbs/1.jpg" alt=""></li>
+      <li><a href="#">Slide 2</a><img src="assets/img/thumbs/2.jpg" alt=""></li>
+      <li><a href="#">Slide 3</a><img src="assets/img/thumbs/3.jpg" alt=""></li>
+      <li><a href="#">Slide 4</a><img src="assets/img/thumbs/4.jpg" alt=""></li>
+      <li><a href="#">Slide 5</a><img src="assets/img/thumbs/5.jpg" alt=""></li>
+      <li><a href="#">Slide 6</a><img src="assets/img/thumbs/6.jpg" alt=""></li>
+      <li><a href="#">Slide 7</a><img src="assets/img/thumbs/7.jpg" alt=""></li>
     </ul>
     <!-- ei-slider-thumbs -->
   </div>
@@ -208,7 +208,7 @@ jQuery.noConflict()(function ($) {
   <!-- Fourth Column -->
   <div class="one-fourth last">
     <h3>Socialize</h3>
-    <img src="img/icon_fb.png" alt=""> <img src="img/icon_twitter.png" alt=""> <img src="img/icon_in.png" alt=""> </div>
+    <img src="assets/img/icon_fb.png" alt=""> <img src="assets/img/icon_twitter.png" alt=""> <img src="assets/img/icon_in.png" alt=""> </div>
   <div style="clear:both"></div>
 </div>
 <!-- END footer -->
