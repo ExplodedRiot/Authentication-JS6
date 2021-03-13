@@ -3,14 +3,14 @@
 <title>Bigshot | Image Frontpage</title>
 <meta charset="utf-8">
 <!-- CSS Files -->
-<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
-<link rel="stylesheet" type="text/css" href="css/gridNavigation.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/menu/css/simple_menu.css">
+<link rel="stylesheet" type="text/css" href="assets/css/gridNavigation.css">
 </head>
 <body>
 <div class="header">
   <!-- Logo/Title -->
-  <div id="site_title"><a href="index.html"> <img src="img/logo.png" alt=""></a> </div>
+  <div id="site_title"><a href="index.html"> <img src="assets/img/logo.png" alt=""></a> </div>
   <!-- Main Menu -->
   <ol id="menu">
     <li><a href="index.html">Home</a>
@@ -50,7 +50,7 @@
 </div>
 <!-- END header -->
 <div id="container">
-  <div style="margin-bottom: 15px"> <img  src="img/demo/slide_2.jpg" alt="" width="960" height="450"> </div>
+  <div style="margin-bottom: 15px"> <img  src="assets/img/demo/slide_2.jpg" alt="" width="960" height="450"> </div>
   <div style="clear:both"></div>
   <h1 style="padding: 20px 0">Professional Photographer John Doe</h1>
   <!-- First Column -->
@@ -118,7 +118,7 @@
   <!-- Fourth Column -->
   <div class="one-fourth last">
     <h3>Socialize</h3>
-    <img src="img/icon_fb.png" alt=""> <img src="img/icon_twitter.png" alt=""> <img src="img/icon_in.png" alt=""> </div>
+    <img src="assets/img/icon_fb.png" alt=""> <img src="assets/img/icon_twitter.png" alt=""> <img src="assets/img/icon_in.png" alt=""> </div>
   <div style="clear:both"></div>
 </div>
 <!-- END footer -->

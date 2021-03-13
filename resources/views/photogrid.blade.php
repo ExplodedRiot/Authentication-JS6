@@ -3,21 +3,21 @@
 <title>Bigshot | PhotoGrid</title>
 <meta charset="utf-8">
 <!-- CSS Files -->
-<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
-<link rel="stylesheet" type="text/css" href="css/gridNavigation.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/img/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/menu/img/simple_menu.css">
+<link rel="stylesheet" type="text/css" href="assets/img/gridNavigation.css">
 <!--JS FILES -->
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.mousewheel.js"></script>
-<script src="js/jquery.gridnav.js"></script>
-<script src="js/easing/jquery.easing.1.3.js"></script>
+<script src="assets/img/jquery.min.js"></script>
+<script src="assets/img/jquery.mousewheel.js"></script>
+<script src="assets/img/jquery.gridnav.js"></script>
+<script src="assets/img/easing/jquery.easing.1.3.js"></script>
 <script>
 $(function () {
     $('#tj_container').gridnav({
         type: {
             mode: 'seqfade', // use def | fade | seqfade | updown | sequpdown | showhide | disperse | rows
             speed: 500, // for fade, seqfade, updown, sequpdown, showhide, disperse, rows
-            easing: '', // for fade, seqfade, updown, sequpdown, showhide, disperse, rows	
+            easing: '', // for fade, seqfade, updown, sequpdown, showhide, disperse, rows
             factor: 100, // for seqfade, sequpdown, rows
             reverse: '' // for sequpdown
         }
