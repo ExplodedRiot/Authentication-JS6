@@ -3,14 +3,14 @@
 <title>Bigshot | Gallery Fader</title>
 <meta charset="utf-8">
 <!-- CSS Files -->
-<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
-<link rel="stylesheet" type="text/css" href="css/gridNavigation.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="menu/assets/css/simple_menu.css">
+<link rel="stylesheet" type="text/css" href="assets/css/gridNavigation.css">
 <!--JS FILES -->
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.mousewheel.js"></script>
-<script src="js/jquery.gridnav.js"></script>
-<script src="js/easing/jquery.easing.1.3.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.mousewheel.js"></script>
+<script src="assets/js/jquery.gridnav.js"></script>
+<script src="assets/js/easing/jquery.easing.1.3.js"></script>
 <script>
 $(function () {
     $('#tj_container').gridnav({
