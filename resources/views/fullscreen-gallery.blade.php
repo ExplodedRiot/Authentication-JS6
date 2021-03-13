@@ -2,17 +2,17 @@
 <head>
 <title>Bigshot | Fullscreen Gallery</title>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
-<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="menu/assets/css/simple_menu.css">
+<link rel="stylesheet" href="assets/css/nivo-slider.css" type="text/css" media="screen">
+<link rel="stylesheet" href="assets/css/supersized.css" type="text/css" media="screen">
 <link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen">
 <!-- Google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
 <!--JS FILES STARTS-->
-<script src="js/jquery.min.js"></script>
-<script src="js/easing/jquery.easing.1.3.js"></script>
-<script src="js/supersized.3.2.6.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/easing/jquery.easing.1.3.js"></script>
+<script src="assets/js/supersized.3.2.6.min.js"></script>
 <script src="theme/supersized.shutter.min.js"></script>
 <script>
 /***************************************************
