@@ -19,6 +19,19 @@ class PostSeeder extends Seeder
             'slug' => ' belajar-model-dengan-laravel',
             'content' => 'Belajar Laravel itu menyenangkan',
             'draft' => 0
-            ]);
+        ],
+        [
+            'title' => 'Belajar Model Dengan Laravel',
+            'slug' => ' belajar-model-dengan-laravel',
+            'content' => 'Belajar Laravel itu menyenangkan',
+            'draft' => 0
+        ],
+        [
+            'title' => 'Belajar Model Dengan Laravel',
+            'slug' => ' belajar-model-dengan-laravel',
+            'content' => 'Belajar Laravel itu menyenangkan',
+            'draft' => 0
+        ],
+    );
     }
 }
